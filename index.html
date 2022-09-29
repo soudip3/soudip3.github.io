@@ -370,6 +370,13 @@
     environment: 'euc1',
     deploymentId: '96fa0bc4-11ee-4e81-a067-63061be82f47'
   });
+Genesys("command", "Database.set", {
+  messaging: {
+    customAttributes: {
+      LOB: "V_BG"
+    }
+  }
+  });
 </script>
   
 
